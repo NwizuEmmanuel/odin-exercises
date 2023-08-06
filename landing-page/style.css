@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.brand {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.main-padding {
+    padding: 20px 200px;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    margin: 0;
+}
+
+.header li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.sub-header {
+    display: flex;
+    background-color: #1f2937;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.right-content{
+    height: 200px;
+    width: 1000px;
+    background-color: aqua;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.left-content {
+    flex-grow: 1;
+    /* flex-shrink: 0; */
+}
+
+.left-content h1 {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left-content p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-card p {
+    text-align: center;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+}
+
+.section-two {
+    background-color: #E5E7EB;
+    margin-top: 60px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.section-three-container {
+    display: flex;
+    background-color: blueviolet;
+    padding: 30px 60px;
+    border-radius: 6px;
+    width: 50vw;justify-content: space-between;
+}
+
+.section-three-container h3 {
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.section-three-container p {
+    margin-top: 3px;
+    color: #E5E7EB;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+    color: #E5E7EB;
+}
